@@ -26,4 +26,11 @@ mpg
 
 ?mpg
 
+# Now we will create a plot to be able to see the data. We will run the number of cylinders on the x axis and city miles per gal on the y axis
+
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = cyl, y = cty))
+
+
+
 
